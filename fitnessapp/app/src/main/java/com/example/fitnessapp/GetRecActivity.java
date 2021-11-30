@@ -127,7 +127,7 @@ public class GetRecActivity extends AppCompatActivity {
         }
         else if (i == 1) //lessWeight
         {
-            theRec = "That's fine, let's go down to " + (temp.getWeight() - 5) + "lbs next time with the same " + (temp.getReps()) + " reps.";
+            theRec = "That's fine, let's go down to " + (temp.getWeight() - 10) + "lbs next time with the same " + (temp.getReps()) + " reps.";
         }
         else if (i == 0) //okay (will change)
         {
@@ -139,7 +139,7 @@ public class GetRecActivity extends AppCompatActivity {
         }
         else if (i == 2) //moreWeight
         {
-            theRec = "Nice progress! go up to " + (temp.getWeight() + 5) + "lbs next time with " + (temp.getReps()) + " reps.";
+            theRec = "Nice progress! go up to " + (temp.getWeight() + 10) + "lbs next time with " + (temp.getReps()) + " reps.";
         }
         else if (i == 3) //randomly select new workout & add to database
         {
